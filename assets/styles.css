@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #f7f7f7;
+  background-color: #222;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+} 
+
+.homebody {
+  animation: fade ease 2s; 
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+}
+
+.homebody .essay {
+  margin-bottom: 10vh;
+}
+#more {
+  display: none;
+}
+
+#myBtn {
+  width: 100px;
+  margin-top:10px;
+}
+
+button:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+input:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+@keyframes fade { 
+  0% { 
+    opacity: 0; 
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+body:hover {
+  cursor: default;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+.essay {
+  display: flex;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+  margin-top: 10vh;
+  border-radius: 5px;
+  width: 65vw;
+}
+
+.pageessay {
+  margin-bottom: 0vh;
+}
+
+.text {
+  width: 60vw;
+  padding-left: 2vw;
+  border-radius: 5px;
+}
+
+.next {
+  background-color: #333;
+  color: #f7f7f7 !important;
+  text-decoration: none;
+}
+
+.essay img {
+  transition: 0.2s;
+}
+
+.essay .arrow {
+  transition: 0.2s;
+}
+
+
+
+a {
+  color: #c4c4c4;
+  transition: 0.2s;
+  text-decoration: none;
+}
+
+.essay {
+  color: #f7f7f7 !important;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f7f7f7;
+  cursor: pointer;
+}
+
+
+
+blockquote {
+  border: 8px solid #333;
+  margin-left: 10px;
+  padding: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+aside {
+  width: 70vw;
+  margin: auto;
+}
+
+aside section {
+  background-color: #333;
+  padding: 20px;
+  text-align: left;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #f7f7f7;
+  transition: 0.3s;
+}
+
+aside .section1:hover {
+  background-color: #3a3a3a;
+}
+
+input {
+  font-family: "Poppins", sans-serif;
+  background-color: transparent;
+  border: 3px solid #f7f7f7;
+  color: #f7f7f7;
+  margin-bottom: 4px;
+  padding: 6px;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  background-color: transparent;
+  border: 3px solid #f7f7f7;
+  color: #f7f7f7;
+  padding: 6px;
+  transition: 0.2s;
+  width: 60px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #f7f7f7;
+  color: #222;
+}
+
+@media (min-width: 750px) {
+  aside {
+    right: 2vw;
+    width: 20vw;
+    position: absolute;
+  }
+  aside section {
+    width: 20vw;
+  }
+  input {
+    width: 13vw;
+  }
+  .essay:hover .arrow {
+    padding-left: 1vw;
+  }
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 56px;
+  font-weight: 700;
+  margin-block-start: 0.95em;
+}
+
+.times h2 {
+  font-size: 46px;
+  margin-block-end: 0.4em;
+  text-align: center;
+}
+
+img {
+  padding: 2vw;
+  padding-right: 6vw;
+  height: 134px;
+}
+
+.filter {
+  filter: invert(0.94);
+}
+
+::selection {
+  background-color: transparent;
+}
+
+/* Popup box styles */
+#popup-box {
+  width: 480px;
+  height: 400px;
+  background: #111;
+  box-sizing: border-box;
+  padding: 10px;
+  position: fixed;
+  top: calc(50% - 200px);
+  left: calc(50% - 240px);
+  display: none;
+  z-index: 10;
+  border-radius: 20px;
+}
+#popup-box button {
+  background-color: transparent;
+  font-size:1.25em;
+  transition: 0.3s;
+  border-radius: 8px;
+  width: 200px;
+  margin-left: calc(50% - 100px);
+}
+#popup-box #close-button {
+  border: transparent;
+  filter: invert(10);
+  position: absolute;
+	top: 0px;
+	right: 0px;
+}
+#popup-box button:hover {
+  background-color: #f7f7f7;
+  color: #111;
+  cursor: pointer;
+}
+#popup-box #close-button:hover {
+  background-color: transparent;
+  color: #aaccff;
+}
+#popup-box .top-bar{
+	width: 100%;
+	background: #aaccff;
+}
+#popup-box .content{
+	width: 80%;
+  margin: auto;
+}
+#popup-box img {
+  margin: auto;
+  height: 25px;
+  padding-right: 2vw;
+}
+
+
+
+@media (max-width: 825px) {
+  .essay {
+    display: block;
+    width: 90vw;
+    text-align: center;
+    margin: auto;
+  }
+  .pagetitle h1 {
+    margin-block-end: 0px;
+  }
+  .essay img {
+    display: none;
+  }
+  .text {
+    display: block;
+    width: 90vw;
+    margin: auto;
+  }
+  img {
+    padding-bottom: 0vw;
+  }
+  h1 {
+    line-height: 60%;
+    margin-block-end: 0.25em;
+  }
+  .hom {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  h1 {
+    font-size: 40px;
+  }
+}
