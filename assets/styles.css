@@ -357,6 +357,9 @@ img {
     font-size: 46px;
     width: 200px;
   }
+  .next .arrow {
+    display: none;
+  }
 }
 
 @media (max-width: 650px) {
