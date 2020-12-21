@@ -343,6 +343,13 @@ img {
   .essay:hover .arrow {
     padding-left: 0vw;
   }
+  input {
+    font-size: 46px;
+    width: 400px;
+  }
+  button {
+    font-size: 46px;
+  }
 }
 
 @media (max-width: 650px) {
