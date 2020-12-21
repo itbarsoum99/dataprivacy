@@ -338,7 +338,9 @@ img {
     font-size: 46px;
   }
   blockquote {
-    font-size: 46px;
+    font-size: 40px;
+    border: 13px solid #333;
+  }
   .hom {
     display: none;
   }
