@@ -301,7 +301,7 @@ img {
   }
 }
 
-@media (pointer: coarse) and (orientation: portrait) {
+@media (pointer: coarse) {
   .essay {
     display: block;
     width: 90vw;
