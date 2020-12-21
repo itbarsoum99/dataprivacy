@@ -249,8 +249,7 @@ img {
   background-color: transparent;
   color: #aaccff;
 }
-#popup-box .top-bar{
-	width: 100%;
+#popup-box .top-bar{ width: 100%;
 	background: #aaccff;
 }
 #popup-box .content{
@@ -296,6 +295,13 @@ img {
 }
 
 @media (pointer: coarse) {
+  aside {
+    position: relative;
+    width: 90vw;
+  }
+  aside section {
+    width: 100%;
+  }
   .essay {
     display: block;
     width: 90vw;
