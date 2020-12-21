@@ -21,7 +21,16 @@ body {
   display: none;
 }
 
+#more2 {
+  display: none;
+}
+
 #myBtn {
+  width: 100px;
+  margin-top:10px;
+}
+
+#myBtn2 {
   width: 100px;
   margin-top:10px;
 }

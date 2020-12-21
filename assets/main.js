@@ -11,4 +11,15 @@ function myFunction() {
   }
 }
 
+function myFunction2() {
+  var moreText = document.getElementById("more2");
+  var btnText = document.getElementById("myBtn2");
 
+  if (moreText.style.display === "inline") {
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
