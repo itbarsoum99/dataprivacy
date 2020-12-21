@@ -357,8 +357,8 @@ img {
     font-size: 46px;
     width: 200px;
   }
-  .next .arrow {
-    display: none;
+  .next {
+    background-color: transparent;
   }
 }
 
