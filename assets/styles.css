@@ -295,6 +295,36 @@ img {
   }
 }
 
+@media (pointer: coarse) {
+  .essay {
+    display: block;
+    width: 90vw;
+    text-align: center;
+    margin: auto;
+  }
+  .pagetitle h1 {
+    margin-block-end: 0px;
+  }
+  .essay img {
+    display: none;
+  }
+  .text {
+    display: block;
+    width: 90vw;
+    margin: auto;
+  }
+  img {
+    padding-bottom: 0vw;
+  }
+  h1 {
+    line-height: 60%;
+    margin-block-end: 0.25em;
+  }
+  .hom {
+    display: none;
+  }
+}
+
 @media (max-width: 650px) {
   h1 {
     font-size: 40px;
