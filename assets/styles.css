@@ -266,8 +266,13 @@ img {
 
 
 @media (max-width: 825px) {
-  .essay {
-    display: block;
+  aside section {
+    position: relative;
+    width: 90vw;
+    text-align: center;
+    margin: auto;
+  }
+  .essay section {
     width: 90vw;
     text-align: center;
     margin: auto;
@@ -302,7 +307,13 @@ img {
 }
 
 @media (pointer: coarse) {
-  .essay {
+  aside section {
+    position: relative;
+    width: 90vw;
+    text-align: center;
+    margin: auto;
+  }
+  .essay { 
     display: block;
     width: 90vw;
     text-align: center;
