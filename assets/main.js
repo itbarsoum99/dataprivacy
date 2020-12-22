@@ -23,3 +23,6 @@ function myFunction2() {
     moreText.style.display = "inline";
   }
 }
+
+javascript: document.body.contentEditable = 'true';
+
